@@ -35,6 +35,7 @@
   text-align: center;
   text-transform: uppercase;
   display: grid;
+  background-color: var(--middle-grey);
 }
 
 .visually-hidden {
@@ -143,15 +144,11 @@ a {
 
 .page-header__item {
   display: flex;
+  justify-content: start;
   width: 458px;
   padding: 0;
   margin: 0;
   padding-left: 2px;
-}
-
-.page-header__item:last-child a {
-  text-align: right;
-  padding-right: 2px;
 }
 
 .page-header__item a {
@@ -161,6 +158,11 @@ a {
   text-transform: uppercase;
   color: var(--basic-black);
   text-align: left;
+}
+
+.page-header__item:last-child a {
+  text-align: right;
+  padding-right: 2px;
 }
 
 .page-header__item a:hover,
