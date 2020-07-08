@@ -17,13 +17,21 @@
           <a href="index.html"></a>
         </div>
         <ul class="page-header__list">
-          <li class="page-header__item">
-            <a href="index.html">Информация</a>
-            <a href="#">Фото и видео</a>
+          <li class="page-header__column">
+            <div class="page-header__item-wrapper">
+              <a class="page-header__item" href="blank.html">Информация</a>
+            </div>
+            <div class="page-header__item-wrapper">
+              <a class="page-header__item" href="blank.html">Фото и видео</a>
+            </div>
           </li>
-          <li class="page-header__item">
-            <a href="#">Карта штата</a>
-            <a class="page-header__item--active">Гостиницы</a>
+          <li class="page-header__column">
+            <div class="page-header__item-wrapper">
+              <a class="page-header__item" href="blank.html">Карта штата</a>
+            </div>
+            <div class="page-header__item-wrapper">
+              <a class="page-header__item page-header__item--active" href="hotels.html">Гостиницы</a>
+            </div>
           </li>
         </ul>
       </nav>
@@ -37,72 +45,65 @@
               <ul class="filter-form__list">
                 <li class="filter-form__item">
                   <label>
-                    <input class="visually-hidden check__input" type="checkbox" value="Бассейн" checked>
+                    <input class="visually-hidden check__input" type="checkbox" name="service-item" value="Бассейн" checked>
                     <span class="check-box"></span>
                     Бассейн
                   </label>
                 </li>
                 <li class="filter-form__item">
                   <label>
-                    <input class="visually-hidden check__input" type="checkbox" value="Парковка">
+                    <input class="visually-hidden check__input" type="checkbox" name="service-item" value="Парковка">
                     <span class="check-box"></span>
                     Парковка
                   </label>
                 </li>
                 <li class="filter-form__item">
                   <label>
-                    <input class="visually-hidden check__input" type="checkbox" value="Wi-Fi">
+                    <input class="visually-hidden check__input" type="checkbox"  name="service-item" value="Wi-Fi">
                     <span class="check-box"></span>
                     Wi-Fi
                   </label>
                 </li>
               </ul>
             </fieldset>
-
             <fieldset class="filter-form__column">
               <legend>Тип жилья:</legend>
               <ul class="filter-form__list">
                 <li class="filter-form__item">
                   <label>
-                    <input class="visually-hidden check__input" type="checkbox" value="Гостиница" checked>
+                    <input class="visually-hidden check__input" type="checkbox" name="room-type" value="Гостиница" checked>
                     <span class="check-box"></span>
                     Гостиница
                   </label>
                 </li>
                 <li class="filter-form__item">
                   <label>
-                    <input class="visually-hidden check__input" type="checkbox" value="Мотель" checked>
+                    <input class="visually-hidden check__input" type="checkbox" name="room-type" value="Мотель" checked>
                     <span class="check-box"></span>
                     Мотель
                   </label>
                 </li>
                 <li class="filter-form__item">
                   <label>
-                    <input class="visually-hidden check__input" type="checkbox" value="Апартаменты" checked>
+                    <input class="visually-hidden check__input" type="checkbox" name="room-type" value="Апартаменты" checked>
                     <span class="check-box"></span>
                     Апартаменты
                   </label>
                 </li>
               </ul>
             </fieldset>
-
             <fieldset class="filter-form__column filter-range">
               <legend>Стоимость в сутки (Р):</legend>
               <div class="filter-range__price">
                 <div class="filter-range__input-box">
-                  <label for="min-price" class="range-label">
-                    от
-                  </label>
+                  <label for="min-price" class="range-label">от</label>
                   <input class="range-input" id="min-price" type="number" step="100" value="0">
                 </div>
                 <div class="filter-range__input-box">
-                  <label for="max-price" class="range-label">
-                    до
-                  </label>
+                  <label for="max-price" class="range-label">до</label>
                   <input class="range-input" id="max-price" type="number" step="100" value="3000">
                 </div>
               </div>
-
               <div class="range-control">
                 <div class="range-control__side-bar"></div>
                 <button type="button" class="btn-toggle toggle toggle-min"></button>
@@ -112,7 +113,6 @@
             <button type="submit" class="form-submit">Показать</button>
           </form>
         </section>
-
         <section class="page-main__filter-sort">
           <div class="filter-container">
             <h2 class="search-result">Найдено: 3</h2>
@@ -136,7 +136,6 @@
             </div>
           </div>
         </section>
-
         <section class="filter-content">
           <h2 class="visually-hidden">Результаты поиска</h2>
           <div class="filter-container">
@@ -144,7 +143,7 @@
               <li class="filter-content__item">
                 <img src="img/hotels/hotels-picture-1.jpg" width="135" height="90" alt="картинка отеля">
                 <div class="item-description">
-                  <a href="#" class="item-title">Amara Resort & Spa</a>
+                  <a href="blank.html" class="item-title">Amara Resort & Spa</a>
                   <div class="item-control">
                     <span>Гостиница</span>
                     <button type="button" class="button">Подробнее</button>
@@ -165,11 +164,10 @@
                   <span>Рейтинг: 8,5</span>
                 </div>
               </li>
-
               <li class="filter-content__item">
                 <img src="img/hotels/hotels-picture-2.jpg" width="135" height="90" alt="картинка отеля">
                 <div class="item-description">
-                  <a href="#" class="item-title">Desert Quail Inn</a>
+                  <a href="blank.html" class="item-title">Desert Quail Inn</a>
                   <div class="item-control">
                     <span>Мотель</span>
                     <button type="button" class="button">Подробнее</button>
@@ -190,11 +188,10 @@
                   <span>Рейтинг: 8,9</span>
                 </div>
               </li>
-
               <li class="filter-content__item">
                 <img src="img/hotels/hotels-picture-3.jpg" width="135" height="90" alt="картинка отеля">
                 <div class="item-description">
-                  <a href="#" class="item-last-title">Villas at Poco Diablo</a>
+                  <a href="blank.html" class="item-last-title">Villas at Poco Diablo</a>
                   <div class="item-control">
                     <span>Апартаменты</span>
                     <button type="button" class="button">Подробнее</button>
@@ -215,7 +212,6 @@
                   <span>Рейтинг: 9,2</span>
                 </div>
               </li>
-
             </ul>
           </div>
         </section>
@@ -230,19 +226,19 @@
           <div class="page-footer__social">
             <ul class="page-footer__list">
               <li class="page-footer__social-item">
-                <a href="#">twitter</a>
+                <a href="blank.html">twitter</a>
               </li>
               <li class="page-footer__social-item">
-                <a href="#">facebook</a>
+                <a href="blank.html">facebook</a>
               </li>
               <li class="page-footer__social-item">
-                <a href="#">youtube</a>
+                <a href="blank.html">youtube</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="page-footer__column">
-          <a class="copyright" href="#">
+          <a class="copyright" href="https://htmlacademy.ru/intensive/htmlcss">
             <span>Website by</span>
             <svg width="114" height="40" viewBox="0 0 114 40" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
