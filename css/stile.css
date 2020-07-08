@@ -179,8 +179,10 @@ a.page-header__item:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-a.page-header__item--active {
+a.page-header__item--active,
+a.page-header__item--active:hover {
   color: #766357;
+  cursor: text;
 }
 
 /* main */
