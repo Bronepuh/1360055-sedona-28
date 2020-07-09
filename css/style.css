@@ -660,7 +660,7 @@ button.count-btn {
   justify-content: center;
   align-items: center;
   width: 400px;
-  
+  padding-top: 22px;
 }
 
 .page-footer__column span {
@@ -834,17 +834,14 @@ a.copyright {
   margin-left: 227px;
 }
 
-.page-main__filter-form h2 {
-  padding: 0;
-  margin: 0;
+.page-main__filter-form legend {
   padding-bottom: 25px;
-  line-height: 21px;
   font-weight: 700;
   font-size: 16px;
   text-align: left;
 }
 
-.filter-form__column:nth-of-type(3) h2 {
+.filter-form__column:nth-of-type(3) legend {
   padding-bottom: 11px;
   padding-left: 5px;
 }
