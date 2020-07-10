@@ -25,13 +25,13 @@
 
 .page-body {
   display: grid;
+  align-items: center;
   min-height: 100%;
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  align-items: center;
   text-align: center;
   text-transform: uppercase;
   background-color: var(--middle-grey);
@@ -112,11 +112,11 @@ a {
 }
 
 .page-header__logo {
-  display: flex;
   position: absolute;
   content: "";
   top: 0;
   left: 50%;
+  display: flex;
   width: 140px;
   height: 70px;
   background-image: url("../img/logo.svg");
@@ -645,12 +645,12 @@ button.count-btn {
 
 /* footer */
 .page-footer {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding-bottom: 30px;
+  padding-top: 22px;
   background-color: var(--basic-white);
 }
 
@@ -660,7 +660,6 @@ button.count-btn {
   justify-content: center;
   align-items: center;
   width: 400px;
-  
 }
 
 .page-footer__column span {
@@ -1170,7 +1169,7 @@ button.sort-down {
   margin-top: 20px;
   background-image: url("../img/icons/icon-down-dir.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: transparent;
   cursor: pointer;
   border: none;
@@ -1185,6 +1184,8 @@ button.sort-down:focus {
 button.sort-down:active,
 button.sort-down--active {
   background-image: url("../img/icons/icon-down-dir-blue.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* FILTER-CONTENT */
