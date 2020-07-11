@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/min.css">
   <title>HTML Academy: Седона</title>
 </head>
 
@@ -99,11 +99,11 @@
             <div class="filter-range__price">
               <div class="filter-range__input-box">
                 <label for="min-price" class="range-label">от</label>
-                <input class="range-input" id="min-price" type="number" step="100" value="0">
+                <input class="range-input" id="min-price" type="text" step="100" value="0">
               </div>
               <div class="filter-range__input-box">
                 <label for="max-price" class="range-label">до</label>
-                <input class="range-input" id="max-price" type="number" step="100" value="3000">
+                <input class="range-input" id="max-price" type="text" step="100" value="3000">
               </div>
             </div>
             <div class="range-control">
@@ -111,8 +111,8 @@
               <button type="button" class="btn-toggle toggle toggle-min" aria-label="ползунок"></button>
               <button type="button" class="btn-toggle toggle toggle-max" aria-label="ползунок"></button>
             </div>
-          </div>
-          <button type="submit" class="form-submit">Показать</button>
+            <button type="submit" class="form-submit">Показать</button>
+          </div>          
         </form>
       </section>
       <section class="page-main__filter-sort">
