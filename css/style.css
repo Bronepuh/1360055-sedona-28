@@ -620,6 +620,7 @@ a.copyright {
 }
 
 .filter-form__column {
+  width: 137px;
   margin: 0;
   padding: 0;
   margin-right: 118px;
@@ -628,7 +629,7 @@ a.copyright {
 
 .filter-form__column:nth-child(3) {
   margin-right: 0;
-  margin-left: 227px;
+  margin-left: 224px;
 }
 
 .page-main__filter-form h2 {
